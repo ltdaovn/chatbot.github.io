@@ -1,0 +1,62 @@
+﻿intents:
+# Ý đồ khách hàng
+ - greet
+ - thank
+ - bye
+ - ask_func_list
+ - ask_name
+ - give_name
+ - ask_d1
+ - ask_d7
+entities:
+ - cust_sex
+ - cust_name
+
+slots:
+ cust_sex:
+  auto_fill: true
+  type: text
+ cust_name:
+  auto_fill: true
+  type: text
+
+
+templates:
+# Bot trả lời
+ utter_greet:
+  - text: "Kính chào Quý khách! Quý khách vui lòng cho biết tên để tiện xưng hô được không ah?"
+ utter_greet_with_name:
+  - text: "Kính chào {cust_sex} {cust_name}. ABC Shop có thể giúp gì được {cust_sex} {cust_name} ạ?"
+ utter_bye:
+  - text: "Kính chào tạm biệt và mong sớm gặp lại quý khách!"
+  - text: "Kính chào tạm biệt và chúc quý khách một ngày tốt lành!"
+ utter_thank:
+  - text: "Cảm ơn quý khách quá khen ah!"
+  - text: "Dạ không có gì, đó là trách nhiệm của em mà!"
+ utter_func_list:
+  - text: "Em chuyên tư vấn về thông tư số 09/2017/TT-BDGĐT  về việc quy định điều kiện, trình tự, thủ tục mở ngành hoặc chuyên ngành đào tạo và đình chỉ tuyển sinh, thu hồi quyết định mở ngành hoặc chuyên ngành đào tạo trình độ thạc sĩ, trình độ tiến sĩ"
+ utter_ask_name:
+  - text: "Em họ Bank, tên Bot! Người ta hay gọi em là Bank Bot thông minh xinh đẹp giỏi giang nhất vũ trụ ạ! Quý khách cần trợ giúp gì ạ?"
+  - text: "Dạ thưa. Tên Tiếng Việt của em là Trợ lý ảo Ngân hàng nhưng em thích gọi bằng tên Tiếng Anh là Bank Bot cho nó Tây!"
+ utter_unclear:
+  - text: "Thưa quý khách, hiện tại tôi chưa hiểu được yêu cầu của Quý khách. "
+ utter_ans_d1:
+  - text: "1.Thông tư này quy định điều kiện, trình tự, thủ tục mở ngành hoặc chuyên ngành đào tạo và đình chỉ tuyển sinh, thu hồi quyết định mở ngành hoặc chuyên ngành (sau đây gọi chung là ngành) đào tạo trình độ thạc sĩ, trình độ tiến sĩ
+2. Thông tư này áp dụng đối với các đại học, học viện, trường đại học (bao gồm cả trường đại học thành viên của đại học quốc gia, đại học vùng), viện nghiên cứu khoa học được phép đào tạo trình độ tiến sĩ (sau đây gọi chung là cơ sở đào tạo); các tổ chức và cá nhân có liên quan đến đào tạo trình độ thạc sĩ, trình độ tiến sĩ."
+
+ utter_ans_d7:
+  - text: "1. Sau khi nhận được hồ sơ đề nghị mở ngành đào tạo của cơ sở đào tạo, cơ quan có thẩm quyền xem xét hồ sơ:
+a) Nếu hồ sơ đề nghị mở ngành đào tạo đầy đủ và đảm bảo các điều kiện theo quy định, thủ trưởng cơ quan có thẩm quyền ra quyết định mở ngành đào tạo trình độ thạc sĩ, trình độ tiến sĩ;
+b) Nếu hồ sơ đề nghị mở ngành đào tạo chưa đầy đủ, chưa đảm bảo các điều kiện theo quy định, cơ quan có thẩm quyền thông báo bằng văn bản cho cơ sở đào tạo kết quả thẩm định và những nội dung chưa đảm bảo quy định.
+2. Việc xem xét hồ sơ mở ngành đào tạo trình độ thạc sĩ, trình độ tiến sĩ được thực hiện trong thời hạn 30 ngày làm việc, kể từ ngày nhận được đủ hồ sơ theo đúng quy định của cơ sở đào tạo. Trong trường hợp cần thiết, Bộ Giáo dục và Đào tạo sẽ tổ chức kiểm tra các điều kiện đảm bảo chất lượng thực tế tại cơ sở đào tạo."
+
+actions:
+ - utter_greet
+ - utter_greet_with_name
+ - utter_bye
+ - utter_unclear
+ - utter_func_list
+ - utter_thank
+ - utter_ask_name
+ - utter_ans_d1
+ - utter_ans_d7
