@@ -5,6 +5,7 @@ import time
 import textToSpeech
 import speechAnswer
 import urllib.request
+import os
 interpreter = NaturalLanguageInterpreter.create('./models/nlu/default/chat')
 action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 agent = Agent.load('models/dialogue', interpreter=interpreter,action_endpoint=action_endpoint)
@@ -12,7 +13,7 @@ cnt = 0
 print("Your bot is ready to talk! Type your messages here or send 'stop'")
 while True:
     cnt+=1
-    print('user: ', end=' ')
+    print('user:', end=' ')
     a = input()
     if a == 'stop':
         break
@@ -26,4 +27,8 @@ while True:
         except:
             time.sleep(3)
             urllib.request.urlretrieve(link_mp3, 'mp3/answer'+ str(cnt) +'.mp3')
-        speechAnswer.play_music('mp3/answer'+ str(cnt) +'.mp3', volume = 0.8) # play file "answer.mp3"
+        if os.path.exists('mp3/answer'+ str(cnt) +'.mp3'):
+            speechAnswer.play_music('mp3/answer'+ str(cnt) +'.mp3', volume = 0.8) # play file "answer.mp3"
+        else:
+            time.sleep(5)
+            speechAnswer.play_music('mp3/answer'+ str(cnt) +'.mp3', volume = 0.8) # play file "answer.mp3"

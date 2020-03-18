@@ -3,22 +3,82 @@
     "action_listen": {
       "slots": []
     },
+    "utter_tiensi_doingugv": {
+      "slots": []
+    },
     "utter_bye": {
       "slots": []
     },
-    "utter_ans_d7": {
+    "utter_thacsi_dieukienkhac": {
+      "slots": []
+    },
+    "utter_tiensi": {
+      "slots": []
+    },
+    "utter_thamdinh_tieuchuan": {
+      "slots": []
+    },
+    "utter_tiensi_nganhdaotao": {
+      "slots": []
+    },
+    "utter_thamdinh": {
+      "slots": []
+    },
+    "utter_thank": {
+      "slots": []
+    },
+    "utter_thacsi_cosovatchat": {
+      "slots": []
+    },
+    "utter_quyetdinhmonganh": {
+      "slots": []
+    },
+    "utter_thutuc": {
+      "slots": []
+    },
+    "utter_thacsi": {
+      "slots": []
+    },
+    "utter_dinhchi_thoigian": {
+      "slots": []
+    },
+    "utter_thamquyen": {
       "slots": []
     },
     "utter_greet_with_name": {
       "slots": []
     },
+    "utter_thacsi_nganhdaotao": {
+      "slots": []
+    },
+    "utter_trinhtu": {
+      "slots": []
+    },
     "utter_func_list": {
       "slots": []
     },
-    "utter_ans_d1": {
+    "utter_thutuc_dean": {
       "slots": []
     },
-    "utter_thank": {
+    "utter_thutuc_tailieu": {
+      "slots": []
+    },
+    "utter_trachnhiem": {
+      "slots": []
+    },
+    "utter_ans_d7": {
+      "slots": []
+    },
+    "utter_tiensi_cosovatchat": {
+      "slots": []
+    },
+    "utter_dinhchi": {
+      "slots": []
+    },
+    "utter_chuyentiep": {
+      "slots": []
+    },
+    "utter_ans_d1": {
       "slots": []
     }
   },
@@ -34,8 +94,8 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20200303-114456",
+  "trained_at": "20200318-150549",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.2",
-  "sklearn": "0.20.4"
+  "sklearn": "0.22.2.post1"
 }

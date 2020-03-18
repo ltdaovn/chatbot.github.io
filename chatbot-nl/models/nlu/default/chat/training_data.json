@@ -592,6 +592,646 @@
       {
         "intent": "ask_name",
         "text": "em tên gì"
+      },
+      {
+        "intent": "ask_thacsi",
+        "text": "điều kiện để mở ngành đào tạo thạc sĩ"
+      },
+      {
+        "intent": "ask_thacsi",
+        "text": "làm sao để mở ngành thạc sĩ"
+      },
+      {
+        "intent": "ask_thacsi",
+        "text": "em có biết làm sao để mở ngành thạc sĩ không"
+      },
+      {
+        "intent": "ask_thacsi",
+        "text": "để mở ngành thạc sĩ thì cần gì"
+      },
+      {
+        "intent": "ask_thacsi",
+        "text": "làm như thế nào để mở ngành thạc sĩ"
+      },
+      {
+        "intent": "ask_thacsi",
+        "text": "mở ngành thạc sĩ có khó không"
+      },
+      {
+        "intent": "ask_thacsi",
+        "text": "mở ngành thạc sĩ có dễ không"
+      },
+      {
+        "intent": "ask_thacsi",
+        "text": "anh muốn mở ngành thạc sĩ mà không biết làm như thế nào"
+      },
+      {
+        "intent": "ask_thacsi_nganhdaotao",
+        "text": "ngành đào tạo thạc sĩ"
+      },
+      {
+        "intent": "ask_thacsi_nganhdaotao",
+        "text": "ngành đào tạo thạc sĩ cần gì"
+      },
+      {
+        "intent": "ask_thacsi_nganhdaotao",
+        "text": "ngành đào tạo thạc sĩ cần những gì"
+      },
+      {
+        "intent": "ask_thacsi_nganhdaotao",
+        "text": "em cho anh biết ngành đào tạo thạc sĩ cần những gì"
+      },
+      {
+        "intent": "ask_thacsi_nganhdaotao",
+        "text": "ngành đào tạo thạc sĩ cần gì vậy em"
+      },
+      {
+        "intent": "ask_thacsi_nganhdaotao",
+        "text": "những thứ cần thiết cho ngành đào tạo thạc sĩ là gì vậy"
+      },
+      {
+        "intent": "ask_thacsi_nganhdaotao",
+        "text": "cần gì trong phần ngành đào tạo thạc sĩ"
+      },
+      {
+        "intent": "ask_thacsi_nganhdaotao",
+        "text": "ngành đào tạo thạc sĩ thì cần điều kiện gì"
+      },
+      {
+        "intent": "ask_thacsi_doingugv",
+        "text": "đội ngũ giảng viên ngành thạc sĩ"
+      },
+      {
+        "intent": "ask_thacsi_doingugv",
+        "text": "đội ngũ giảng viên ngành thạc sĩ thì như nào"
+      },
+      {
+        "intent": "ask_thacsi_doingugv",
+        "text": "đội ngũ giảng viên ngành thạc sĩ thì như thế nào"
+      },
+      {
+        "intent": "ask_thacsi_doingugv",
+        "text": "đội ngũ giảng viên ngành thạc sĩ cần gì"
+      },
+      {
+        "intent": "ask_thacsi_doingugv",
+        "text": "đội ngũ giảng viên ngành thạc sĩ có cần gì không"
+      },
+      {
+        "intent": "ask_thacsi_doingugv",
+        "text": "vậy đội ngũ giảng viên ngành thạc sĩ thì phải cần điều kiện như thế nào"
+      },
+      {
+        "intent": "ask_thacsi_doingugv",
+        "text": "đội ngũ giảng viên ngành thạc sĩ cần điều kiện gì"
+      },
+      {
+        "intent": "ask_tiensi",
+        "text": "điều kiện để mở ngành đào tạo tiến sĩ"
+      },
+      {
+        "intent": "ask_tiensi",
+        "text": "làm sao để mở ngành tiến sĩ"
+      },
+      {
+        "intent": "ask_tiensi",
+        "text": "em có biết làm sao để mở ngành tiến sĩ không"
+      },
+      {
+        "intent": "ask_tiensi",
+        "text": "để mở ngành tiến sĩ thì cần gì"
+      },
+      {
+        "intent": "ask_tiensi",
+        "text": "làm như thế nào để mở ngành tiến sĩ"
+      },
+      {
+        "intent": "ask_tiensi",
+        "text": "mở ngành tiến sĩ có khó không"
+      },
+      {
+        "intent": "ask_tiensi",
+        "text": "mở ngành tiến sĩ có dễ không"
+      },
+      {
+        "intent": "ask_tiensi",
+        "text": "anh muốn mở ngành tiến sĩ mà không biết làm như thế nào"
+      },
+      {
+        "intent": "ask_tiensi_nganhdaotao",
+        "text": "ngành đào tạo tiến sĩ"
+      },
+      {
+        "intent": "ask_tiensi_nganhdaotao",
+        "text": "ngành đào tạo tiến sĩ cần gì"
+      },
+      {
+        "intent": "ask_tiensi_nganhdaotao",
+        "text": "ngành đào tạo tiến sĩ cần những gì"
+      },
+      {
+        "intent": "ask_tiensi_nganhdaotao",
+        "text": "em cho anh biết ngành đào tạo tiến sĩ cần những gì"
+      },
+      {
+        "intent": "ask_tiensi_nganhdaotao",
+        "text": "ngành đào tạo tiến sĩ cần gì vậy em"
+      },
+      {
+        "intent": "ask_tiensi_nganhdaotao",
+        "text": "những thứ cần thiết cho ngành đào tạo tiến sĩ là gì vậy"
+      },
+      {
+        "intent": "ask_tiensi_nganhdaotao",
+        "text": "cần gì trong phần ngành đào tạo tiến sĩ"
+      },
+      {
+        "intent": "ask_tiensi_nganhdaotao",
+        "text": "ngành đào tạo tiến sĩ thì cần điều kiện gì"
+      },
+      {
+        "intent": "ask_tiensi_doingugv",
+        "text": "đội ngũ giảng viên ngành tiến sĩ"
+      },
+      {
+        "intent": "ask_tiensi_doingugv",
+        "text": "đội ngũ giảng viên ngành tiến sĩ thì như nào"
+      },
+      {
+        "intent": "ask_tiensi_doingugv",
+        "text": "đội ngũ giảng viên ngành tiến sĩ thì như thế nào"
+      },
+      {
+        "intent": "ask_tiensi_doingugv",
+        "text": "đội ngũ giảng viên ngành tiến sĩ cần gì"
+      },
+      {
+        "intent": "ask_tiensi_doingugv",
+        "text": "đội ngũ giảng viên ngành tiến sĩ có cần gì không"
+      },
+      {
+        "intent": "ask_tiensi_doingugv",
+        "text": "vậy đội ngũ giảng viên ngành tiến sĩ thì phải cần điều kiện như thế nào"
+      },
+      {
+        "intent": "ask_tiensi_doingugv",
+        "text": "đội ngũ giảng viên ngành tiến sĩ cần điều kiện gì"
+      },
+      {
+        "intent": "ask_thacsi_cosovatchat",
+        "text": "cơ sở vật chất"
+      },
+      {
+        "intent": "ask_thacsi_cosovatchat",
+        "text": "cơ sở vật chất thì như thế nào"
+      },
+      {
+        "intent": "ask_thacsi_cosovatchat",
+        "text": "cơ sở vật chất thì ra sao"
+      },
+      {
+        "intent": "ask_thacsi_cosovatchat",
+        "text": "cơ sở vật chất thì cần gì"
+      },
+      {
+        "intent": "ask_thacsi_cosovatchat",
+        "text": "điều kiện của cơ sở vật chất là gì"
+      },
+      {
+        "intent": "ask_thacsi_cosovatchat",
+        "text": "những cơ sở vật chất cần thiết là gì"
+      },
+      {
+        "intent": "ask_thacsi_cosovatchat",
+        "text": "cơ sở vật chất cần những điều kiện gì"
+      },
+      {
+        "intent": "ask_thacsi_dieukienkhac",
+        "text": "điều kiện khác"
+      },
+      {
+        "intent": "ask_thacsi_dieukienkhac",
+        "text": "vậy điều kiện khác là gì"
+      },
+      {
+        "intent": "ask_thacsi_dieukienkhac",
+        "text": "điều kiện khác là như thế nào"
+      },
+      {
+        "intent": "ask_thacsi_dieukienkhac",
+        "text": "những điều kiện khác"
+      },
+      {
+        "intent": "ask_thacsi_dieukienkhac",
+        "text": "vậy còn điều kiện khác là điều kiện gì"
+      },
+      {
+        "intent": "ask_thacsi_dieukienkhac",
+        "text": "điều kiện khác thì như thế nào"
+      },
+      {
+        "intent": "ask_thamquyen",
+        "text": "thẩm quyền quyết định cho phép mở ngành đào tạo trình độ thạc sĩ, tiến sĩ"
+      },
+      {
+        "intent": "ask_thamquyen",
+        "text": "thẩm quyền quyết định cho phép mở ngành đào tạo trình độ thạc sĩ"
+      },
+      {
+        "intent": "ask_thamquyen",
+        "text": "thẩm quyền quyết định cho phép mở ngành đào tạo trình độ tiến sĩ"
+      },
+      {
+        "intent": "ask_thamquyen",
+        "text": "ai có thẩm quyền cho phép mở ngành"
+      },
+      {
+        "intent": "ask_thamquyen",
+        "text": "người nào có thẩm quyền cho phép mở ngành"
+      },
+      {
+        "intent": "ask_thamquyen",
+        "text": "cơ quan nào có thẩm quyền cho phép mở ngành"
+      },
+      {
+        "intent": "ask_thamquyen",
+        "text": "người nào được quyền cấp phép mở ngành"
+      },
+      {
+        "intent": "ask_trinhtu",
+        "text": "trình tự mở ngành ra sao"
+      },
+      {
+        "intent": "ask_trinhtu",
+        "text": "trình tự mở ngành là như thế nào"
+      },
+      {
+        "intent": "ask_trinhtu",
+        "text": "trình tự mở ngành thạc sĩ"
+      },
+      {
+        "intent": "ask_trinhtu",
+        "text": "trình tự mở ngành tiến sĩ"
+      },
+      {
+        "intent": "ask_trinhtu",
+        "text": "muốn mở ngành phải làm các bước như thế nào"
+      },
+      {
+        "intent": "ask_trinhtu",
+        "text": "thứ tự các bước thực hiện để mở ngành"
+      },
+      {
+        "intent": "ask_trinhtu",
+        "text": "muốn mở ngành phải thực hiện theo thứ tự nào"
+      },
+      {
+        "intent": "ask_thutuc",
+        "text": "thủ tục mở ngành"
+      },
+      {
+        "intent": "ask_thutuc",
+        "text": "hồ sơ mở ngành"
+      },
+      {
+        "intent": "ask_thutuc",
+        "text": "muốn mở ngành phải làm hồ sơ như thế nào"
+      },
+      {
+        "intent": "ask_thutuc",
+        "text": "muốn mở ngành phải làm hồ sơ như ra sao"
+      },
+      {
+        "intent": "ask_thutuc",
+        "text": "các thủ tục cần thiết để mở ngành"
+      },
+      {
+        "intent": "ask_thutuc",
+        "text": "các hồ sơ cần thiết để mở ngành"
+      },
+      {
+        "intent": "ask_thutuc",
+        "text": "làm hồ sơ mở ngành ra sao"
+      },
+      {
+        "intent": "ask_thutuc",
+        "text": "làm thủ tục mở ngành ra sao"
+      },
+      {
+        "intent": "ask_thutuc",
+        "text": "muốn làm hồ sơ mở ngành phải làm sao"
+      },
+      {
+        "intent": "ask_thutuc",
+        "text": "làm hồ sơ mở ngành như thế nào"
+      },
+      {
+        "intent": "ask_thutuc_congvan",
+        "text": "công văn đề nghị mở ngành là sao"
+      },
+      {
+        "intent": "ask_thutuc_congvan",
+        "text": "công văn đề nghị mở ngành thì có gì"
+      },
+      {
+        "intent": "ask_thutuc_congvan",
+        "text": "công văn đề nghị mở ngành cần có gì"
+      },
+      {
+        "intent": "ask_thutuc_congvan",
+        "text": "trong công văn đề nghị mở ngành cần có gì"
+      },
+      {
+        "intent": "ask_thutuc_congvan",
+        "text": "trong công văn đề nghị mở ngành cần những gì"
+      },
+      {
+        "intent": "ask_thutuc_congvan",
+        "text": "trong công văn đề nghị mở ngành cần có những gì"
+      },
+      {
+        "intent": "ask_thutuc_dean",
+        "text": "đề án đề nghị mở ngành là sao"
+      },
+      {
+        "intent": "ask_thutuc_dean",
+        "text": "đề án đề nghị mở ngành thì có gì"
+      },
+      {
+        "intent": "ask_thutuc_dean",
+        "text": "đề án đề nghị mở ngành cần có gì"
+      },
+      {
+        "intent": "ask_thutuc_dean",
+        "text": "trong đề án đề nghị mở ngành cần có gì"
+      },
+      {
+        "intent": "ask_thutuc_dean",
+        "text": "trong đề án đề nghị mở ngành cần những gì"
+      },
+      {
+        "intent": "ask_thutuc_dean",
+        "text": "trong đề án đề nghị mở ngành cần có những gì"
+      },
+      {
+        "intent": "ask_thutuc_tailieu",
+        "text": "tài liệu bao gồm những gì"
+      },
+      {
+        "intent": "ask_thutuc_tailieu",
+        "text": "tài liệu và thẩm định bao gồm những gì"
+      },
+      {
+        "intent": "ask_thutuc_tailieu",
+        "text": "tài liệu và thẩm định bao gồm gì"
+      },
+      {
+        "intent": "ask_thutuc_tailieu",
+        "text": "tài liệu có gì"
+      },
+      {
+        "intent": "ask_thutuc_tailieu",
+        "text": "tài liệu có những gì"
+      },
+      {
+        "intent": "ask_thutuc_tailieu",
+        "text": "tài liệu cần có gì"
+      },
+      {
+        "intent": "ask_thutuc_tailieu",
+        "text": "tài liệu thẩm định có gì trong đó"
+      },
+      {
+        "intent": "ask_thutuc_tailieu",
+        "text": "trong tài liệu và thẩm định cần có cái gì"
+      },
+      {
+        "intent": "ask_thamdinh",
+        "text": "thẩm định chương trình đào tạo trình độ thạc sĩ, tiến sĩ và các điều kiện đảm bảo chất lượng"
+      },
+      {
+        "intent": "ask_thamdinh",
+        "text": "để thẩm định chất lượng cần điều kiện gì"
+      },
+      {
+        "intent": "ask_thamdinh",
+        "text": "làm sao để thẩm định chất lượng đào tạo trình độ thạc sĩ"
+      },
+      {
+        "intent": "ask_thamdinh",
+        "text": "làm sao để thẩm định chất lượng đào tạo trình độ tiến sĩ"
+      },
+      {
+        "intent": "ask_thamdinh",
+        "text": "cần điều kiện gì để thẩm định chương trình đào tạo"
+      },
+      {
+        "intent": "ask_thamdinh",
+        "text": "muốn thẩm định chương trình đào tạo cần phải làm gì"
+      },
+      {
+        "intent": "ask_thamdinh",
+        "text": "quy trình thẩm định chương trình đào tạo"
+      },
+      {
+        "intent": "ask_thamdinh_tieuchuan",
+        "text": "tiêu chuẩn của thẩm định chương trình đào tạo là gì"
+      },
+      {
+        "intent": "ask_thamdinh_tieuchuan",
+        "text": "tiêu chuẩn của thẩm định chương trình đào tạo thạc sĩ là gì"
+      },
+      {
+        "intent": "ask_thamdinh_tieuchuan",
+        "text": "tiêu chuẩn của thẩm định chương trình đào tạo tiến sĩ là gì"
+      },
+      {
+        "intent": "ask_thamdinh_tieuchuan",
+        "text": "tiêu chuẩn thẩm định là gì"
+      },
+      {
+        "intent": "ask_quyetdinhmonganh",
+        "text": "trong bao lâu thì được xét mở ngành"
+      },
+      {
+        "intent": "ask_quyetdinhmonganh",
+        "text": "thời gian xem xét mở ngành là bao lâu"
+      },
+      {
+        "intent": "ask_quyetdinhmonganh",
+        "text": "mất thời gian bao lâu để xem xét mở ngành thạc sĩ"
+      },
+      {
+        "intent": "ask_quyetdinhmonganh",
+        "text": "mất thời gian bao lâu để xem xét mở ngành tiến sĩ"
+      },
+      {
+        "intent": "ask_quyetdinhmonganh",
+        "text": "mất bao lâu để xem xét mở ngành thạc sĩ"
+      },
+      {
+        "intent": "ask_quyetdinhmonganh",
+        "text": "mất bao lâu để xem xét mở ngành tiến sĩ"
+      },
+      {
+        "intent": "ask_quyetdinhmonganh",
+        "text": "xem xét quyết định mở ngành trong bao lâu"
+      },
+      {
+        "intent": "ask_quyetdinhmonganh",
+        "text": "thời gian được duyệt mở ngành là bao lâu"
+      },
+      {
+        "intent": "ask_quyetdinhmonganh",
+        "text": "sau khi có hồ sơ đầy đủ thì mất bao lâu mới được duyệt mở ngành"
+      },
+      {
+        "intent": "ask_dinhchi",
+        "text": "làm sao thì bị đình chỉ tuyển sinh"
+      },
+      {
+        "intent": "ask_dinhchi",
+        "text": "trường hợp nào thì bị đinh chỉ tuyển sinh"
+      },
+      {
+        "intent": "ask_dinhchi",
+        "text": "các trường hợp bị đình chỉ tuyển sinh"
+      },
+      {
+        "intent": "ask_dinhchi",
+        "text": "khi vướng phải trường hợp nào thì bị đình chỉ tuyển sinh"
+      },
+      {
+        "intent": "ask_dinhchi",
+        "text": "bị đình chỉ tuyển sinh khi mắc phải trường hợp nào"
+      },
+      {
+        "intent": "ask_dinhchi",
+        "text": "khi nào thì bị đình chỉ tuyển sinh"
+      },
+      {
+        "intent": "ask_dinhchi_thoigian",
+        "text": "thời gian bị đình chỉ là bao lâu"
+      },
+      {
+        "intent": "ask_dinhchi_thoigian",
+        "text": "khi bị đình chỉ thì thời gian là bao lâu"
+      },
+      {
+        "intent": "ask_dinhchi_thoigian",
+        "text": "thời gian bị đình chỉ tuyến sinh là bao lâu"
+      },
+      {
+        "intent": "ask_dinhchi_thoigian",
+        "text": "khi bị đình chỉ tuyển sinh thì thời gian bị đình chỉ là bao lâu"
+      },
+      {
+        "intent": "ask_dinhchi_xoa",
+        "text": "vậy làm sao có thể tuyển sinh trở lại"
+      },
+      {
+        "intent": "ask_dinhchi_xoa",
+        "text": "làm sao để không bị đình chỉ"
+      },
+      {
+        "intent": "ask_dinhchi_xoa",
+        "text": "làm sao để tuyển sinh trở lại bình thường"
+      },
+      {
+        "intent": "ask_dinhchi_xoa",
+        "text": "làm sao khi bị đình chỉ tuyển sinh"
+      },
+      {
+        "intent": "ask_dinhchi_xoa",
+        "text": "làm sao để hết bị đình chỉ tuyển sinh"
+      },
+      {
+        "intent": "ask_dinhchi_xoa",
+        "text": "làm cách nào để có thể tiếp tục tuyển sinh"
+      },
+      {
+        "intent": "ask_thuhoi",
+        "text": "thu hồi quyết đinh mở ngành đào tạo thạc sĩ hoặc tiến sĩ"
+      },
+      {
+        "intent": "ask_thuhoi",
+        "text": "khi nào thì bị thu hồi quyết đinh mở ngành đào tạo thạc sĩ"
+      },
+      {
+        "intent": "ask_thuhoi",
+        "text": "khi nào thì bị thu hồi quyết đinh mở ngành đào tạo tiến sĩ"
+      },
+      {
+        "intent": "ask_thuhoi",
+        "text": "làm sao thì bị thu hồi quyết định mở ngành"
+      },
+      {
+        "intent": "ask_thuhoi",
+        "text": "làm sai cái gì thì bị thu hồi quyết định mở ngành"
+      },
+      {
+        "intent": "ask_trachnhiem",
+        "text": "trách nhiệm của các bên liên quan trong việc thẩm định là gì"
+      },
+      {
+        "intent": "ask_trachnhiem",
+        "text": "trách nhiệm của cơ sở đào tạo trong việc thẩm định là gì"
+      },
+      {
+        "intent": "ask_trachnhiem",
+        "text": "trách nhiệm của bộ giáo dục là gì"
+      },
+      {
+        "intent": "ask_trachnhiem",
+        "text": "trách nhiệm của cán bộ giảng viên tham gia hội đồng thẩm định là gì"
+      },
+      {
+        "intent": "ask_trachnhiem",
+        "text": "trách nhiệm"
+      },
+      {
+        "intent": "ask_trachnhiem",
+        "text": "trách nhiệm của hội đồng thẩm định là gì"
+      },
+      {
+        "intent": "ask_trachnhiem",
+        "text": "các trách nhiệm trong quyết định mở ngành"
+      },
+      {
+        "intent": "ask_trachnhiem",
+        "text": "các trách nhiệm trong quá trình thẩm định"
+      },
+      {
+        "intent": "ask_chuyentiep",
+        "text": "quy định chuyển tiếp là gì"
+      },
+      {
+        "intent": "ask_chuyentiep",
+        "text": "quy định chuyển tiếp là sao"
+      },
+      {
+        "intent": "ask_chuyentiep",
+        "text": "quy định chuyển tiếp ra làm sao"
+      },
+      {
+        "intent": "ask_chuyentiep",
+        "text": "quy định chuyển tiếp"
+      },
+      {
+        "intent": "ask_chuyentiep",
+        "text": "nội dung của quy định chuyển tiếp là gì"
+      },
+      {
+        "intent": "ask_chuyentiep",
+        "text": "quy định chuyển tiếp có gì trong đó"
+      },
+      {
+        "intent": "ask_chuyentiep",
+        "text": "thông tin của quy định chuyển tiếp là gì"
+      },
+      {
+        "intent": "ask_chuyentiep",
+        "text": "nội dung của quy định chuyển tiếp có gì trong đó"
       }
     ],
     "regex_features": [],

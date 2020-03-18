@@ -29,13 +29,5 @@ def ask_question(text):
     print(interpreter.parse(text))
 
 
-#ask_question("Anh là Thắng")
-#ask_question("Cô Vân")
-
-import sys
-def main():
-    if len(sys.argv) > 1:
-        str = sys.argv[1]
-        ask_question(str)
-main()
-
+# ask_question("Anh là Thắng")
+#ask_question("điều kiện khác")
