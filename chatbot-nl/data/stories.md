@@ -49,15 +49,8 @@
 * thank
   - utter_thank
 
-## trả lời điều 1
-* ask_d1
- - utter_ans_d1
-## trả lời điều 7
-* ask_d7
- - utter_ans_d7
 
-
- ## hỏi mở ngành thạc sĩ - từ trên xuống dưới - cách 1
+ ## hỏi mở ngành thạc sĩ
 * ask_thacsi
 - utter_thacsi
 

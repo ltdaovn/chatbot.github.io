@@ -3,40 +3,16 @@
     "action_listen": {
       "slots": []
     },
-    "utter_tiensi_doingugv": {
-      "slots": []
-    },
     "utter_bye": {
       "slots": []
     },
-    "utter_thacsi_dieukienkhac": {
-      "slots": []
-    },
-    "utter_tiensi": {
-      "slots": []
-    },
-    "utter_thamdinh_tieuchuan": {
-      "slots": []
-    },
-    "utter_tiensi_nganhdaotao": {
-      "slots": []
-    },
-    "utter_thamdinh": {
-      "slots": []
-    },
-    "utter_thank": {
+    "utter_thacsi_nganhdaotao": {
       "slots": []
     },
     "utter_thacsi_cosovatchat": {
       "slots": []
     },
-    "utter_quyetdinhmonganh": {
-      "slots": []
-    },
-    "utter_thutuc": {
-      "slots": []
-    },
-    "utter_thacsi": {
+    "utter_thutuc_tailieu": {
       "slots": []
     },
     "utter_dinhchi_thoigian": {
@@ -45,40 +21,61 @@
     "utter_thamquyen": {
       "slots": []
     },
-    "utter_greet_with_name": {
+    "utter_dinhchi": {
       "slots": []
     },
-    "utter_thacsi_nganhdaotao": {
+    "utter_thacsi_dieukienkhac": {
       "slots": []
     },
-    "utter_trinhtu": {
+    "utter_tiensi_doingugv": {
       "slots": []
     },
-    "utter_func_list": {
+    "utter_tiensi_nganhdaotao": {
       "slots": []
     },
-    "utter_thutuc_dean": {
+    "utter_dinhchi_xoa": {
       "slots": []
     },
-    "utter_thutuc_tailieu": {
+    "utter_thacsi": {
+      "slots": []
+    },
+    "utter_thutuc": {
+      "slots": []
+    },
+    "utter_thamdinh": {
       "slots": []
     },
     "utter_trachnhiem": {
       "slots": []
     },
-    "utter_ans_d7": {
-      "slots": []
-    },
-    "utter_tiensi_cosovatchat": {
-      "slots": []
-    },
-    "utter_dinhchi": {
-      "slots": []
-    },
     "utter_chuyentiep": {
       "slots": []
     },
-    "utter_ans_d1": {
+    "utter_thank": {
+      "slots": []
+    },
+    "utter_func_list": {
+      "slots": []
+    },
+    "utter_thamdinh_tieuchuan": {
+      "slots": []
+    },
+    "utter_thuhoi": {
+      "slots": []
+    },
+    "utter_quyetdinhmonganh": {
+      "slots": []
+    },
+    "utter_thutuc_dean": {
+      "slots": []
+    },
+    "utter_thutuc_congvan": {
+      "slots": []
+    },
+    "utter_greet_with_name": {
+      "slots": []
+    },
+    "utter_trinhtu": {
       "slots": []
     }
   },
@@ -94,7 +91,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20200318-150549",
+  "trained_at": "20200319-105016",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.2",
   "sklearn": "0.22.2.post1"
